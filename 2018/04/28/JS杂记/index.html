@@ -5,6 +5,9 @@
 <p>继承：<br>原型链方式实现继承（不足：原型链会共享，不能向父类型传递参数）<br>借用构造函数 ：使用superClass.call(this) 函数复用性不足<br>组合继承<br>原型式继承<br>寄生式继承<br>寄生组合式继承</p>
 <p>闭包只能取得包含函数中的变量的最后的值</p>
 <p>js中对后续相同的命名变量声明会视而不见</p>
+<p>事件冒泡<br>事件触发顺序：div - body - html - document<br>事件捕获<br>事件触发顺序：document- html - body - div</p>
+<p>dom2级事件流<br>先捕获阶段后目标阶段再到冒泡阶段，顺序为document- html - body - div - body - html - document<br>在冒泡阶段可以对事件作出响应</p>
+<p>在html中添加点击事件1、存在时差的问题，可以通过try catch来避免，2、拓展事件处理程序的作用域链，在不同浏览器中存在差异</p>
 <p>转载请注明: <a href="http://jhyan.me/2018/04/28/JS杂记/" target="_blank" rel="noopener">http://jhyan.me/2018/04/28/JS杂记/</a></p>
 </div><!-- comment system--><div class="container"><hr></div></article><footer id="footer"><div class="container"><div class="bar"><div class="social"><a href="mailto:yanjunhan@163.com" target="_blank"><i class="fa fa-envelope-o"></i></a><a href="https://github.com/junhyan" target="_blank"><i class="fa fa-github"></i></a><a href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div><div class="footer">© 2018 <a href="/" rel="nofollow">woodenbox</a>.</div></div></div></footer><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css"><script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script><script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script><script>$(document).ready(function() {
     $(".fancybox").fancybox();
