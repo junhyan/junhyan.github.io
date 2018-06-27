@@ -51,11 +51,11 @@ article {
  */
 header {
   padding: 1em 0;
-  background: #333;
+  background: #2ca6cb;
   color: #F1F1F1; }
   header .container {
     font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
-    border-bottom: .3em solid #333; }
+    border-bottom: .3em solid #2ca6cb; }
     header .container .title {
       color: #EEE;
       text-decoration: none;
@@ -79,7 +79,7 @@ header {
 nav {
   top: 0;
   position: sticky;
-  background: #333;
+  background: #2ca6cb;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   font-size: 1em;
   z-index: 10; }
@@ -114,7 +114,7 @@ nav {
       bottom: 0;
       height: 3px;
       width: 0;
-      background: #5DB1B4;
+      background: #00ffff;
       transition: width .25s; }
     #nav a.active::before, #nav a:hover::before {
       width: 100%; }
@@ -337,9 +337,9 @@ nav {
 footer#footer {
   text-align: right;
   margin-top: 2em;
-  background: #333; }
+  background: #2ca6cb; }
   footer#footer, footer#footer a, footer#footer a:visited {
-    color: #AAA; }
+    color: #fff; }
   footer#footer a:hover {
     color: #EEE; }
   footer#footer .bar {
@@ -379,10 +379,10 @@ footer#footer {
 /* post header meta data(time/tag) */
 .wrapper .meta {
   text-align: right;
-  background: #333;
-  color: #CCC;
-  border-top: 2px solid #555;
-  border-bottom: 2px solid #555;
+  background: #2ca6cb;
+  color: #fff;
+  border-top: 2px solid #ececff;
+  border-bottom: 2px solid #ececff;
   display: flex;
   box-shadow: 0 0 2px 1px rgba(200, 200, 200, 0.8);
   transition: background-color .2s ease-in-out;
@@ -391,10 +391,11 @@ footer#footer {
     .wrapper .meta {
       max-width: 100%; } }
   .wrapper .meta:hover {
-    background: #222; }
+    background: #4a4aff; }
   .wrapper .meta .post-time {
     flex: 1;
-    text-align: left;
+    text-align: right;
+    padding-right: 30px;
     font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
     font-size: 14px;
     align-self: center; }
