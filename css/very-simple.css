@@ -270,9 +270,9 @@ nav {
       font-weight: 600;
       font-size: 1.2em; }
       .post-entry .post-desc .post-title:hover {
-        border-bottom: 1px solid #666; }
+        border-bottom: 1px solid #2ca6cb; }
       .post-entry .post-desc .post-title a {
-        color: #333;
+        color: #2ca6cb;
         text-decoration: none;
         border: none;
         display: block;
